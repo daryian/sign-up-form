@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.left-container {
+    display: flex;
+    width: 33.40vw;
+    height: 100vh;
+    background-image: url(plant.jpg);
+}
+
+.right-container {
+    flex-direction: column;
+    width: 66.60vw;
+    height: 100vh;
+    display: flex;
+}
+
+.image {
+    min-width: 100%;
+    max-height: 100%;
+}
+.right-container .outer{
+    height: 30vh;
+}
+
+.right-container .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    box-shadow: 6px 4px 6px;
+}
+
+.top {
+    padding: 20px;
+}
+
+.one, .two {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.text-container {
+    padding: 10px;
+}
