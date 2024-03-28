@@ -44,7 +44,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    min-height: 40vh;
+    position: fixed
+    height: 40vh;
     box-shadow: 6px 4px 6px;
 }
 
@@ -173,3 +174,4 @@ label {
     font-weight: 700;
     color: #1d2c2b;
 }
+
